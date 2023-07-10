@@ -1,0 +1,17 @@
+name: "test"
+sourceLanguage: "de"
+targetLanguages: ["de", "ru"]
+deadline: "2023-05-18T13:00:00+03:00"
+description: "new project"
+workflowStages: ["translation", "editing"]
+externalTag: "123"
+clientId: null
+creatorUserId: "1f324f45b-13db-32df-a4234-32d432342e6d7"
+file_path: 'data/test.txt', 'data/example.docx', 'data/test_2.txt'
+id_lingvist: "1f324f45b-13db-32df-a4234-32d432342e6d7", null, null
+id_redactor: "1f324f45b-13db-32df-a4234-32d432342e6d7", "1f324f45b-13db-32df-a4234-32d432342e6d7", null
+id_TM: "240f89d9-5f30-462c-3b654-23e3dd1a04a6d"
+glossary: "d8328ad37-4828-550e-b1cd-3f0432c44d86"
+serviceType: "translation"
+targetLanguage_lingvist: null 
+specializations: null
