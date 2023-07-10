@@ -44,9 +44,17 @@ ServiceType: "Translation"                                   #The type of freela
 targetLanguage_lingvist: "en"                                 #Translation language. a parameter for searching for a linguist. You can pass null then in the my_team file.json displays all                                                                         available linguists whose sourceLanguage is equal to the specified value
 
 specializations: ["Education"]                                # The translator's specialization is: Education, ProductsAndCatalogs, DocumentsAndCertificates, Marketing, Correspondence, Software,                                                                    Fiction, ScienceAndPatents, ContractsAndReports, Gaming, Manuals, Website, AnnualReport, CorporateAndSocialResponsibility,                                                                           TechnicalAndEngineering, Cryptocurrencies, Biochemistry, Computingscience, Electronics, Metallurgy , Nuclear, Optics, Printing,                                                                      Telecommunication, Textile, Patent, Military, EcologyAndEnvironment, Agriculture, ArtsAndCulture, AviationAndSpace, Biology,                                                                         Cartography, Chemistry, Cosmetics, Construction, Architecture, Economics, Accounting, BankingAndInvestment, Insurance, Energy,                                                                       ThermalPowerEngineering, MechanicalEngineering, Finance, General, Geography, Geology, Mining, History, Linguistics, Philosophy,                                                                      Psychology, Sociology, Industry, IndustrialAutomation, ElectricalEngineering, IT, ERP, Law, HR, Mathematics, Medicine,                                                                               MedicalEquipment, Pharmaceutics, VeterinaryMedicine, OilAndGas, Physics, PoliticsAndSociety, RealEstate, Recreation, Fashion,                                                                        LuxuryItems, TourismAndTravel, Religion, SocialScience, Sport, Transport, AutomotiveBusiness, FoodAndDrinks, Biotechnology,                                                                          Business, LifeSciences
-                                                                you can transfer several. You can pass null. then in the my_team file.json displays all available linguists, including those who do                                                                   not have a specialization.
-
+                                                                
 id_lingvist: null                                               #Here we pass the id of the linguist. If not necessary, we pass null
+
+
+
+
+File get_all_glossary.py example of a get request to get all available account glossaries.
+This is necessary to transfer the necessary parameters to the configuration file.
+
+
+All other necessary parameters can be obtained using the same example, see the official documentation for more details.
 
 
 
